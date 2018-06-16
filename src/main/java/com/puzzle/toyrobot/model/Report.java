@@ -15,7 +15,7 @@ public class Report {
         this.output = output;
     }
 
-    public void addOutout(String outupt) {
+    public void addOutput(String outupt) {
         this.output.add(outupt);
     }
 

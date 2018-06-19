@@ -60,3 +60,12 @@ Output: 3,3,NORTH
 REPORT
 
 Output: ROBOT MISSING
+
+# Notes:
+- All commands will be ignored until a valid PLACE command.
+- The robot can be re-PLACEd at any time.
+- Any number of REPORT commands are allowed.
+- The REST-API request body is a Simulation Round object that contains a list of commands.
+- The REST-API response object is a Report object that contains a list of reports, which is the output of the REPORT command if any. 
+- Many Integration tests are added.
+
